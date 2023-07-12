@@ -12,7 +12,36 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <form>
+      <div>
+        <label for="name">Name:</label>
+        <input
+          id="name"
+          type="text"
+          name="name"
+        />
+      </div>
 
+      <div>
+        <label for="email">Email:</label>
+        <input
+          id="email"
+          type="text"
+          name="email"
+        />
+      </div>
+
+      <div>
+        <label for="form-message">Your message:</label>
+        <textarea
+          id="form-message"
+          name="message"
+          maxlength="200"
+        ></textarea>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
     
     <script src="script.js"></script>
   </body>

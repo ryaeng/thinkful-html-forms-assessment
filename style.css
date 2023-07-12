@@ -3,3 +3,17 @@ html {
   width: 100%;
 }
 
+body form div {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+body form div textarea {
+  height: 150px;
+}
+
+body form button {
+  margin-left: 10px;
+  margin-top: 10px;
+}
